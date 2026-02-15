@@ -144,7 +144,7 @@ function App() {
   await sleep(3000)//1:20
 
     };
-    let audio = new Audio("../public/loveshy.mp3")
+    let audio = new Audio("/loveshy.mp3")
     audio.play().catch(error => console.error("Playback failed", error));
     fetchLyrics();
 
