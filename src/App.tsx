@@ -1,39 +1,9 @@
 import { useState, useEffect } from 'react'
-import reactLogo from './assets/react.svg'
-import viteLogo from '/vite.svg'
+
 import './App.css'
 import GlitchText from './components/GlitchText'
 
 const sleep = (ms: number) => new Promise((r) => setTimeout(r, ms));
-
-
-let lyrics =  [
-    "Hey, I like your face",
-    "You got a wicked lil' smile like the devil's tryna give you away",
-    "And I could pray for a sign, but my mind's telling pretty little lies",
-
-    "Tell me, baby, am I preaching to a sinner?",
-    "God, you're such a killer, ah, it's like",
-    "Any minute, I'll be wrapped around your finger",
-    "Can you pull the trigger?",
-
-    "'Cause I like it like that, I need it like that",
-    "So treat me like that, you know I'll come back",
-    "You scratch and I bite, we kiss then we fight",
-    "I like it like that, that, that, that",
-    "(That, that, that, that) 'Cause I like it like that",
-    "(That, that, that, that)",
-
-    "Because it tastes so bitter, ah-ah",
-    "She's like a drug, I can't quit her, it's, it's",
-    "It's like I'm falling through the floor, yeah, down the rabbit hole",
-    "I cannot deny it, you know you leave me wanting more",
-
-    "Tell me, baby, am I preaching to a sinner?",
-    "God, you're such a killer, ah, it's like",
-    "Any minute, I'll be wrapped around your finger",
-    "Can you pull the trigger?"
-  ];
 
 
 function App() {
